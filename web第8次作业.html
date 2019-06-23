@@ -1,0 +1,582 @@
+<!doctype html>
+<html>
+    <head>
+         <meta charset="utf-8"/>
+         <title>web第八次作业</title>
+         <style>
+         *{
+         	padding: 0;
+         	margin: 0;
+         }
+         a{
+         	text-decoration: none;
+         }
+         li{
+         	list-style: none;
+         }
+         .a{
+            height: 40px;
+         }
+         .b{
+            width: 1200px;
+            line-height: 40px;
+            color: #7a948c;
+            margin: 0 auto;
+         }
+         .b div{
+            float: right;
+         }
+         .b1{
+            width: 1200px;
+            background:url(images/sanjiao.png) no-repeat 980px 15px;
+            height: 40px;
+         }
+         .b2{
+            width: 1200px;
+            background:url(images/sanjiao.png) no-repeat 1055px 15px;
+            height: 40px;
+         }
+         .c{
+            font-size: 12.93px;
+         }
+         .d{
+            margin-left: 40px;
+         }
+         .d a{
+            color: #5e8075;
+            font-size: 14.78px;
+         }
+         .e{
+            font-size: 14.78px;
+            margin-left: 40px;
+         }
+         .e a{
+            color: #5d5a5c;
+         }
+         .e span{
+            margin-left: 10px;
+         }
+         .f{
+            margin-left: 30px;
+         }
+         .g{
+            margin-left: 13px;
+         }
+         .g a{
+            color: #5d5a5c;
+         }
+         .h{
+            height: 118px;
+         }
+         .i{
+            width: 1200px;
+            margin: 0 auto;
+         }
+         .j li{
+            float: left;
+            margin-top: 35px;
+         }
+         .j li:first-child{
+            margin-right: 178px;
+         }
+         .j li:last-child{
+            margin-left: 145px;
+         }
+         .k{
+            height: 45px;
+            width: 59px;
+            border: 2px solid #393942;
+         }
+         .k img{
+            margin-left: 13px;
+            margin-top: 5px;
+         }
+         .l div{
+            float: left;
+         }
+         .ll{
+            height:45px;
+            width:540px;
+            border-color:#393942;
+            text-align: center;
+         }
+         .m{
+            height: 29px;
+            border-bottom: #3aa747 solid 4px;
+         }
+         .n{
+            width: 1200px;
+            margin: 0 auto;
+         }
+         .n1{
+            width: 1200px;
+            background:url(images/sanjiao.png) no-repeat 100px 10px;
+            height: 29px;
+         }
+         .o li{
+            float: left;
+            width: 98px;
+            height: 26px;
+            text-align: center;
+            margin-left: 15px;
+            line-height: 26px;
+         }
+         .o a{
+            color: #050505;
+         }
+         .o a:hover{
+            color: #3aa747;
+         }
+         .o li:first-child{
+            margin-left: 0px;
+         }
+         .o li+li:hover{
+            border-bottom: #3aa747 solid 3px;
+            
+         }
+         .p{
+            height: 670px; 
+         }
+         
+         .p1 li{
+            height: 116px;
+            width: 78px;
+            background: #040b0a;
+            line-height: 116px;
+            border-bottom: #4f5453 solid 1px;
+         }
+         .p1 ul{
+            float: right;
+            position: fixed;
+            right: 0px;
+            top: 0;
+         }
+         .q{
+            background: url(images/banner.png) no-repeat center;
+            height: 670px;
+         }
+         .r{
+            height:1017px;
+         }
+        .rw{
+            width: 1200px;
+            margin: 0 auto;
+         }
+        .r1{
+            height: 60px;
+            line-height: 60px;
+            text-indent: 25px;
+            font-size: 18px;
+         }
+         .r1 a{
+            color: #797777;
+         }
+         .rr1{
+            font-size: 14px;
+            color: #8f8d8d;
+         }
+        .rr1 a{
+            font-size: 14px;
+            color: #8f8d8d;
+         }
+         .rr2{
+            font-size: 14px;
+            color: #8f8d8d;
+            float: right;
+         }
+         .r2{
+            width: 1200px;
+            height: 45px;
+            border: solid #cccccc 1px;
+         }
+         .r2 a{
+            color: #737373;
+         }
+         .r2 a:hover{
+            color: #3aa747;
+         }
+         .r2 li{
+            float: left;
+            line-height: 45px;
+            margin-right: 90px;
+         }
+         .r2 li:first-child{
+            margin-left: 0px;
+            width: 100px;
+            text-align: center;
+            margin-right: 40px;
+            background: #e5e5e5;
+         }
+         
+         .r3{
+            width: 1200px;
+            height: 45px;
+            border-left: solid #cccccc 1px;
+            border-right: solid #cccccc 1px;
+         }
+         .r3 a{
+            color: #737373;
+         }
+         .r3 a:hover{
+            color: #3aa747;
+         }
+         .rr3 a{
+            color: #000000;
+         }
+         .r3 li{
+            float: left;
+            line-height: 45px;
+            margin-right: 90px;
+         }
+         .r3 li:first-child{
+            margin-left: 0px;
+            width: 100px;
+            text-align: center;
+            margin-right: 40px;
+            background: #e5e5e5;
+         }
+         .rr4{
+            margin-left: 50px;
+         }
+         .s{
+            margin-top: 60px;
+            margin-left: 2px;
+         }
+         .s li{
+            width: 274px;
+            height: 294px;
+            border: solid #878787 1px;
+            float: left;
+            position: relative;
+         }
+         .s2 li{
+            margin-top: 30px;
+         }
+         .s div{
+            height: 50px;
+            width: 100%;
+            color: #ffffff;
+            background: #474744;
+            opacity: 0.9;
+            line-height: 25px;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+         }
+         .s div:hover{
+            height: 200px;
+            width: 100%;
+            color: #ffffff;
+            font-size: 22px;
+            background: #474744;
+            opacity: 0.9;
+            line-height: 46px;
+            text-align: center;
+            position: absolute;
+            padding-top: 94px;
+         }
+         .ss1{
+            margin-left: 26px;
+         }
+         .ss1 img{
+            padding-left: 40px;
+            padding-top: 30px;
+         }
+         .ss2{
+            margin-left: 26px;
+         }
+         .ss2 img{
+            padding-left: 25px;
+            padding-top: 48px;
+         }
+         .ss3{
+            margin-left: 26px;
+         }
+         .ss3 img{
+            padding-left: 28px;
+            padding-top: 30px;
+         }
+         .ss4 img{
+            padding-left: 25px;
+            padding-top: 48px;
+         }
+         .ss5{
+            margin-left: 26px;
+         }
+         .ss5 img{
+            padding-left: 25px;
+            padding-top: 48px;
+         }
+         .ss6{
+            margin-left: 26px;
+         }
+         .ss6 img{
+            padding-left: 25px;
+            padding-top: 48px;
+         }
+         .ss7{
+            margin-left: 26px;
+         }
+         .ss7 img{
+            padding-left: 25px;
+            padding-top: 48px;
+         }
+         .t{
+            height: 100px;
+            background: #f5f5f5;
+         }
+         .tw{
+            width: 1200px;
+            margin: 0 auto;
+         }
+         .tw li{
+            width: 300px;
+            height: 50px;
+            float: left;
+         }
+         
+         .tw div{
+            float: left;
+         }
+         .tw img{
+            margin-left: 25px;
+            margin-top: 26px;
+         }
+         .t1{
+            margin-top: 26px;
+            border-right: #e0e0e0 1px solid;
+            padding-right: 35px;
+         }
+         .t4{
+         	margin-top: 26px;
+         }
+         .t2{
+            font-size: 19px;
+         }
+         .t3{
+         	margin-right: 30px;
+         }
+         .u{
+            height: 100px;
+            background: #323232;
+         }
+         .uw{
+            width: 1200px;
+            margin: 0 auto;
+            color: #f5f5f5;
+         }
+         .u1{
+            padding-top: 30px;
+            text-indent: 233px;
+         }
+         .u2{
+            text-indent: 460px;
+         }
+         </style>
+	</head>
+	<body>
+		<div class="a">
+          <div class="b">
+            <div class="b1">
+            <div class="b2">
+            <div class="f">
+                <img src="images/wb.png">  
+                <img src="images/wx.png"> 
+            </div> 
+            <div class="g"><a href="#">帮助中心</a></div>
+             <div class="e">
+                  <a href="#">我的订单</a>
+                  <span><a href="#">我的买猜</a></span>
+            </div>
+            <div class="d">
+                <a href="#">请登录</a>
+                 <a href="#">免费注册</a>
+             </div>
+            <div class="c">嘿，欢迎来买猜商城！</div>
+          </div> 
+          </div>
+          </div>
+        </div>
+        <div class="h">
+              <div class="i">
+                  <ul class="j">
+                      <li><img src="images/logo.png"></li>
+                      <li class="l">
+                        <div>
+                        	<form>
+                        		<input type="text" class="ll" placeholder="请输入关键词！">
+                        	</form>
+                        </div>
+                        <div class="k"><a href="#"><img src="images/search.png"></a></div>
+                      </li>
+                      <li><img src="images/cart.png"></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="m">
+              <div class="n">
+                  <div class="n1">
+                  <ul class="o">
+                      <li>全部商品分类</li>
+                      <li><a href="#">首页</a></li>
+                      <li><a href="#">名酒</a></li>
+                      <li><a href="#">茗茶</a></li>
+                      <li><a href="#">玉石</a></li>
+                      <li><a href="#">休闲食品</a></li>
+                      <li><a href="#">洗护用品</a></li>
+                      <li><a href="#">土特产</a></li>
+                      <li><a href="#">积分商城</a></li>
+                      <li><a href="#">抽奖游戏</a></li>
+                  </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="p">
+            <div class="q">
+            </div>
+          </div>
+          <div class="r">
+            <div class="rw">
+              <div class="r1">
+                  <a href="#">首页</a> <span class="rr1"> > <a href="#">玉石</a></span>
+                  <span class="rr2">共200件相关商品</span>
+              </div>
+              <div class="r2">
+                  <ul>
+                      <li class="rr3"><a href="#">玉石</a></li>
+                      <li><a href="#">白玉</a></li>
+                      <li><a href="#">碧玉</a></li>
+                      <li><a href="#">黄玉</a></li>
+                      <li><a href="#">和田玉</a></li>
+                      <li><a href="#">翡翠</a></li>
+                      <li><a href="#">绿松玉</a></li>
+                      <li><a href="#">墨玉</a></li>
+                  </ul>
+              </div>
+              <div class="r3">
+                  <ul>
+                      <li class="rr3"><a href="#">其他</a></li>
+                      <li><a href="#">吊坠</a></li>
+                      <li><a href="#">扳指</a></li>
+                      <li><a href="#">手镯</a></li>
+                  </ul>
+              </div>
+              <div class="r2">
+                  <ul>
+                      <li class="rr3"><a href="#">地区</a></li>
+                      <li><a href="#">北京</a></li>
+                      <li><a href="#">安徽</a></li>
+                      <li><a href="#">福建</a></li>
+                      <li><a href="#">内蒙古</a></li>
+                      <li><a href="#">宁夏</a></li>
+                      <li><a href="#">黑龙江</a></li>
+                      <li><a href="#">河北</a></li>
+                      <li class="rr4"><a href="#">更多</a></li>
+                  </ul>
+              </div>
+              <div class="s">
+                  <ul class="s3">
+                      <li>
+                        <img src="images/img1.png">
+                        <div><p>竞猜价：￥ 399.00</p><p>翡翠千手观音吊坠</p></div>
+                      </li>
+                      <li class="ss1">
+                        <img src="images/img2.png">
+                        <div><p>竞猜价：￥ 1980.00</p><p>翡翠龙凤吊坠</p></div>
+                      </li>
+                      <li class="ss2">
+                        <img src="images/img3.png">
+                        <div><p>竞猜价：￥ 199.00</p><p>翡翠花蕊吊坠</p></div>
+                      </li>
+                      <li class="ss3">
+                        <img src="images/img4.png">
+                        <div><p>竞猜价：￥ 199.00</p><p>翡翠如意吊坠</p></div>
+                      </li>
+                  </ul>
+                  <ul class="s2">
+                      <li class="ss4">
+                        <img src="images/img5.png">
+                        <div><p>竞猜价：￥ 99.00</p><p>翡翠婵吊坠</p></div>
+                      </li>
+                      <li class="ss5">
+                        <img src="images/img6.png">
+                        <div><p>竞猜价：￥ 99.00</p><p>翡翠观音（浅色）吊坠</p></div>
+                      </li>
+                      <li class="ss6">
+                        <img src="images/img7.png">
+                        <div><p>竞猜价：￥ 199.00</p><p>翡翠平安扣（深色）吊坠</p></div>
+                      </li>
+                      <li class="ss7">
+                        <img src="images/img8.png">
+                        <div><p>竞猜价：￥ 199.00</p><p>翡翠如意吊坠</p></div>
+                      </li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+          <div class="t">
+              <div class="tw">
+                  <ul>
+                      <li>
+                        <div>
+                        <img src="images/f1.png">
+                        </div>
+                        <div class="t1">
+                            <p class="t2">资质认证</p>
+                            <p>服务商100%实名认证</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                        <img src="images/f2.png">
+                        </div>
+                        <div class="t1">
+                            <p class="t2">支付安全</p>
+                            <p>明码标价支付及信息安全</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                        <img src="images/f3.png">
+                        </div>
+                        <div class="t1">
+                        	<div class="t3">
+                            <p class="t2">保险赔付</p>
+                            <p>为您提供担保赔付</p>
+                            </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                        <img src="images/f4.png">
+                        </div>
+                        <div class="t4">
+                            <p class="t2">售后无忧</p>
+                            <p>服务出问题经理全程跟进</p>
+                        </div>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          <div class="u">
+              <div class="uw">
+                  <p class="u1">
+                      首页 | 工商代理 | 财务代记账 | 股权交易与变更 | 企业贷款 | 办公室租赁 | 社保公积金代理 | 法律服务
+                  </p>
+                  <br>
+                  <p class="u2">
+                      © 2017-2018 买猜商城有限公祠 版权所有
+                  </p>
+              </div>
+          </div>
+          <div class="p1">
+          	<ul class="pp">
+                <li align="center"><a href="#"><img src="images/cart1.png"></a></li>
+                <li align="center"><a href="#"><img src="images/qq.png"></a></li>
+                <li align="center"><a href="#"><img src="images/zuji.png"></a></li>
+                <li align="center"><a href="#"><img src="images/erweima.png"></a></li>
+                <li align="center"><a href="#"><img src="images/gotop.png"></a></li>
+            </ul>
+          </div>
+	</body>
+</html>
